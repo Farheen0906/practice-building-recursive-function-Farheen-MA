@@ -12,14 +12,17 @@ of the string (recursive case).
 
 function reverseString(str){
     //Base case
+    //String contains 1 character or if empty string return the string itself
     if(str.length<=1){
         return str;
     }
     //Recursive case
+    // last character "+" concatenation recursive call with the remaining string
     return str[str.length-1] + reverseString(str.slice(0,-1));
 
 }
-console.log(reverseString("hello")); // Outputs: "olleh"
-console.log(reverseString("recursion")); // Outputs: "noisrucer"
-console.log(reverseString("a")); // Outputs: "a"
-console.log(reverseString("")); // Outputs: ""
+console.log(reverseString("hello")); // Output: "olleh"
+console.log(reverseString("recursion")); // Output: "noisrucer"
+console.log(reverseString("a")); // Output: "a"
+console.log(reverseString("")); // Output: ""
+console.log(reverseString("Farheen")); //Output: 
