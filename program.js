@@ -25,4 +25,4 @@ console.log(reverseString("hello")); // Output: "olleh"
 console.log(reverseString("recursion")); // Output: "noisrucer"
 console.log(reverseString("a")); // Output: "a"
 console.log(reverseString("")); // Output: ""
-console.log(reverseString("Farheen")); //Output: 
+console.log(reverseString("Farheen")); //Output:"neehraF"
